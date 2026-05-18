@@ -43,6 +43,9 @@
 
 
 ## 3. WBS
+<details>
+<summary>WBS 링크</summary>
+<div markdown="1">
 [WBS](https://docs.google.com/spreadsheets/d/1nOWCJmpTlyvO9L5ES9-pbAvM8WLmR13WEBstjrw-yW8/edit?usp=sharing)
 
 <br/>
