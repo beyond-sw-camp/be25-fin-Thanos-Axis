@@ -44,19 +44,19 @@
 
 ## 3. WBS
 <details>
-<summary>WBS 링크</summary>
+<summary> WBS 링크</summary>
 <div markdown="1">
 [WBS](https://docs.google.com/spreadsheets/d/1nOWCJmpTlyvO9L5ES9-pbAvM8WLmR13WEBstjrw-yW8/edit?usp=sharing)
+</div>
+</details>
 
 <br/>
 
 
 ## 4. 요구사항 명세서
-
 <details>
 <summary>요구사항 명세서 링크</summary>
 <div markdown="1">
-  
 [요구사항 명세서](https://docs.google.com/spreadsheets/d/1nOWCJmpTlyvO9L5ES9-pbAvM8WLmR13WEBstjrw-yW8/edit?usp=sharing)
 
 </div>
@@ -110,11 +110,12 @@
 
 ## 10. API 명세서
 
-<br/>
+<br>
 
 
 ## 11. 테스트 결과서
 
+<br>
 
 ## 12. CI/CD 계획서
 
@@ -126,8 +127,9 @@
 
 ## 14. 향후 개선 계획
 <details>
-
-
+<summary>향후 개선 계획</summary>
+<div markdown="1">
+</div>
 </details>
 
 <br/>
