@@ -38,7 +38,8 @@
 
 ## 2. 프로젝트 기획서
 
-[프로젝트 기획서]
+[프로젝트 기획서](https://github.com/user-attachments/files/28079549/Meetbowl_.pdf)
+
 <br/>
 
 
