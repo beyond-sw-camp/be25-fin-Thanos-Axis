@@ -44,24 +44,16 @@
 
 
 ## 3. WBS
-<details>
-<summary> WBS 링크</summary>
-<div markdown="1">
-[WBS](https://docs.google.com/spreadsheets/d/1nOWCJmpTlyvO9L5ES9-pbAvM8WLmR13WEBstjrw-yW8/edit?usp=sharing)
-</div>
-</details>
+
+[WBS 링크](https://docs.google.com/spreadsheets/d/1nOWCJmpTlyvO9L5ES9-pbAvM8WLmR13WEBstjrw-yW8/edit?usp=sharing)
+
 
 <br/>
 
 
 ## 4. 요구사항 명세서
-<details>
-<summary>요구사항 명세서 링크</summary>
-<div markdown="1">
-[요구사항 명세서](https://docs.google.com/spreadsheets/d/1nOWCJmpTlyvO9L5ES9-pbAvM8WLmR13WEBstjrw-yW8/edit?usp=sharing)
 
-</div>
-</details>
+[요구사항 명세서](https://docs.google.com/spreadsheets/d/1nOWCJmpTlyvO9L5ES9-pbAvM8WLmR13WEBstjrw-yW8/edit?usp=sharing)
 
 <br/>
 
