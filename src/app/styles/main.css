@@ -1,8 +1,53 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-navy: var(--navy);
+  --color-navy-foreground: var(--navy-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-border: var(--sidebar-border);
+}
+
 :root {
-  font-family:
-    Inter, Pretendard, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  color: #16202a;
-  background: #eef3f7;
+  --background: oklch(0.99 0.002 250);
+  --foreground: oklch(0.18 0.02 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.02 260);
+  --primary: oklch(0.69 0.18 45);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.96 0.005 250);
+  --secondary-foreground: oklch(0.22 0.03 260);
+  --muted: oklch(0.965 0.004 250);
+  --muted-foreground: oklch(0.5 0.015 255);
+  --accent: oklch(0.96 0.01 250);
+  --accent-foreground: oklch(0.2 0.03 260);
+  --destructive: oklch(0.58 0.22 27);
+  --border: oklch(0.92 0.006 250);
+  --input: oklch(0.92 0.006 250);
+  --navy: oklch(0.24 0.05 265);
+  --navy-foreground: oklch(0.98 0.003 250);
+  --sidebar: oklch(0.22 0.04 265);
+  --sidebar-foreground: oklch(0.85 0.01 250);
+  --sidebar-accent: oklch(0.28 0.04 265);
+  --sidebar-border: oklch(0.3 0.03 265);
+  color: var(--foreground);
+  background: var(--background);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -10,17 +55,22 @@
 }
 
 * {
+  border-color: var(--border);
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Pretendard", "Noto Sans KR", sans-serif;
+  font-feature-settings: "ss01", "cv11";
 }
 
 button,
 input,
-textarea,
-select {
+select,
+textarea {
   font: inherit;
 }
 
@@ -28,64 +78,27 @@ select {
   min-height: 100vh;
 }
 
-.app-shell {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 32px;
-}
-
-.setup-panel {
-  width: min(100%, 560px);
-  padding: 40px;
-  border: 1px solid #c9d5df;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 20px 50px rgba(17, 39, 60, 0.12);
-}
-
-.eyebrow {
-  margin: 0 0 12px;
-  color: #0c6c74;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-h1 {
-  margin: 0 0 24px;
-  color: #0d1822;
-  font-size: 42px;
-  line-height: 1.15;
+h1,
+h2,
+h3,
+h4 {
   letter-spacing: 0;
 }
 
-ul {
-  display: grid;
-  gap: 12px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-li {
-  padding: 14px 16px;
-  border: 1px solid #d9e3ea;
+.inp {
+  width: 100%;
+  height: 36px;
+  border: 1px solid var(--input);
   border-radius: 6px;
-  color: #334756;
-  background: #f7fafc;
+  background: var(--card);
+  padding: 0 12px;
+  font-size: 13px;
 }
 
-@media (max-width: 560px) {
-  .app-shell {
-    padding: 20px;
-  }
+.scroll-table {
+  overflow-x: auto;
+}
 
-  .setup-panel {
-    padding: 28px 20px;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
+.scroll-table > table {
+  min-width: 720px;
 }
