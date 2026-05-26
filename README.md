@@ -3,7 +3,7 @@
 
 | 이진 | 김지연 | 윤정윤 | 이다윗 | 이서윤 |
 | :---: | :---: | :---: | :---: | :---: |
-|  |  |  |  |  |
+| <img width="1254" height="1254" alt="blue" src="https://github.com/user-attachments/assets/22adab5d-736a-491c-a522-941bb9dfef89" /> | <img width="1254" height="1254" alt="purple" src="https://github.com/user-attachments/assets/48b14d15-b099-4f0c-820b-7f8d3a8fdcbf" /> | <img width="1254" height="1254" alt="yellow" src="https://github.com/user-attachments/assets/ece17ccb-8081-420d-b416-4efb29b63e99" /> | <img width="1254" height="1254" alt="orange" src="https://github.com/user-attachments/assets/84efbee8-c0db-417e-90c5-28539aba899e" /> | <img width="1254" height="1254" alt="green" src="https://github.com/user-attachments/assets/bc4e65b2-7864-45c2-99b4-629bababacea" /> |
 
 
 ## 📚 목차
